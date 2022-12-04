@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
+:root {
+  --primary-color: #daa520;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(240, 218, 191);
+}
+
+.nav-bar {
+  margin: 0;
+  padding: 0.6em;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Zen Dots", cursive;
+  font-size: 1.5em;
+  color: #daa520;
+}
+
+.logo span {
+  color: rgb(51, 51, 51);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0.2em 0.2em;
+  padding: 2px;
+  margin-right: 1em;
+}
+
+.menu span {
+  color: rgb(0, 0, 0);
+}
+
+.full-offer {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 0;
+}
+
+.full-offer li {
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  margin: 0.6em;
+  border-style: solid;
+  box-shadow: 7px 7px rgb(92, 92, 92);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.full-offer h1 {
+  font-family: "Zen Dots", cursive;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.full-offer h2 {
+  font-family: "Zen Dots", cursive;
+  text-align: center;
+  font-size: 1em;
+}
+
+.full-offer button {
+  border: none;
+  margin: 0.5em;
+}
+
+.more {
+  text-decoration: none;
+  font-family: "Zen Dots", cursive;
+}
