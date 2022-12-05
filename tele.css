@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 :root {
   --primary-color: #daa520;
@@ -6,7 +9,8 @@
 
 body {
   margin: 0;
-  background-color: rgb(240, 218, 191);
+  background-color: rgb(255, 255, 255);
+  font-family: "Righteous", cursive;
 }
 
 .nav-bar {
@@ -56,10 +60,14 @@ body {
 
 .full-offer li {
   list-style-type: none;
-  background-color: rgb(255, 255, 255);
-  margin: 0.6em;
-  border-style: solid;
-  box-shadow: 7px 7px rgb(92, 92, 92);
+  background: rgb(235, 133, 255);
+  background: rgb(246, 197, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(246, 197, 255, 1) 30%,
+    rgba(160, 159, 255, 1) 70%
+  );
+  margin: 1.2em;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -67,23 +75,33 @@ body {
 }
 
 .full-offer h1 {
-  font-family: "Zen Dots", cursive;
   text-align: center;
   font-size: 1.8em;
+  background-color: rgb(205, 162, 253);
+  border-radius: 50px;
+  margin: -19px 40px 10px 40px;
+  color: rgb(255, 255, 255);
 }
 
 .full-offer h2 {
-  font-family: "Zen Dots", cursive;
   text-align: center;
   font-size: 1em;
+  margin: 5px;
+  color: rgb(255, 255, 255);
 }
 
 .full-offer button {
   border: none;
-  margin: 0.5em;
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 50px;
+  padding: 9px;
+  margin: 10px auto 10px auto;
 }
 
-.more {
+.full-offer a {
+  font-weight: bold;
+  font-family: "Righteous", cursive;
   text-decoration: none;
-  font-family: "Zen Dots", cursive;
+  color: black;
 }
