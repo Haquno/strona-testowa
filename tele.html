@@ -33,7 +33,7 @@
 
     <div class="offer">
       <ul class="full-offer">
-        <li class="s">
+        <li class="offer-s">
           <h1>Oferta S</h1>
           <h2>INTERNET 5G</h2>
           <h2>15 GB</h2>
@@ -48,41 +48,93 @@
               numer 510.
             </h3>
           </b>
-          <button><a class="more_S" href="">WIĘCEJ</a></button>
+
+          <button class="more_s">WIĘCEJ</button>
         </li>
-        <li class="m">
+        <li class="offer-m">
           <h1>Oferta M</h1>
           <h2>INTERNET 5G</h2>
           <h2>30 GB</h2>
           <h2>Rozmowy/SMS/MMS</h2>
           <h2>bez limitu</h2>
-          <button><a class="more" href="">WIĘCEJ</a></button>
+
+          <b>
+            <h3>Wyślij SMS o treści "Oferta M" pod numer 510.</h3>
+            <h3>Oferta odnawia się automatycznie co 30 dni za 20zł.</h3>
+            <h3>
+              W celu rezygnacji z oferty wyślij SMS o treści "Oferta STOP" pod
+              numer 510.
+            </h3>
+          </b>
+
+          <button class="more_m">WIĘCEJ</button>
         </li>
-        <li class="l">
+        <li class="offer-l">
           <h1>Oferta L</h1>
           <h2>INTERNET 5G</h2>
           <h2>50 GB</h2>
           <h2>Rozmowy/SMS/MMS</h2>
           <h2>bez limitu</h2>
-          <button><a class="more" href="">WIĘCEJ</a></button>
+
+          <b>
+            <h3>Wyślij SMS o treści "Oferta L" pod numer 510.</h3>
+            <h3>Oferta odnawia się automatycznie co 30 dni za 30zł.</h3>
+            <h3>
+              W celu rezygnacji z oferty wyślij SMS o treści "Oferta STOP" pod
+              numer 510.
+            </h3>
+          </b>
+
+          <button class="more_l">WIĘCEJ</button>
         </li>
-        <li class="gold">
+        <li class="offer-big">
           <h1>GOLD</h1>
           <h2>INTERNET 5G</h2>
           <h2>100 GB</h2>
           <h2>Rozmowy/SMS/MMS</h2>
           <h2>bez limitu</h2>
-          <button><a class="more" href="">WIĘCEJ</a></button>
+
+          <b>
+            <h3>Wyślij SMS o treści "Oferta GOLD" pod numer 510.</h3>
+            <h3>Oferta odnawia się automatycznie co 30 dni za 40zł.</h3>
+            <h3>
+              W celu rezygnacji z oferty wyślij SMS o treści "Oferta STOP" pod
+              numer 510.
+            </h3>
+          </b>
+
+          <button class="more_big">WIĘCEJ</button>
         </li>
       </ul>
     </div>
 
     <script>
-      const offerNav = document.querySelector(".full-offer b");
-      const offerAct = document.querySelector(".more_S");
+      const offerNavS = document.querySelector(".offer-s b");
+      const offerActS = document.querySelector(".more_s");
 
-      offerAct.addEventListener("click", function () {
-        offerNav.classList.toggle("active");
+      offerActS.addEventListener("click", function () {
+        offerNavS.classList.toggle("active");
+      });
+
+      const offerNavM = document.querySelector(".offer-m b");
+      const offerActM = document.querySelector(".more_m");
+
+      offerActM.addEventListener("click", function () {
+        offerNavM.classList.toggle("active");
+      });
+
+      const offerNavL = document.querySelector(".offer-l b");
+      const offerActL = document.querySelector(".more_l");
+
+      offerActL.addEventListener("click", function () {
+        offerNavL.classList.toggle("active");
+      });
+
+      const offerNavBIG = document.querySelector(".offer-big b");
+      const offerActBIG = document.querySelector(".more_big");
+
+      offerActBIG.addEventListener("click", function () {
+        offerNavBIG.classList.toggle("active");
       });
     </script>
   </body>
