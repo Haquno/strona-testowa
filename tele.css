@@ -104,11 +104,35 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-.full-offer b {
+.offer-s b {
   display: none;
 }
 
-.full-offer b.active {
+.offer-s b.active {
+  display: block;
+}
+
+.offer-m b {
+  display: none;
+}
+
+.offer-m b.active {
+  display: block;
+}
+
+.offer-l b {
+  display: none;
+}
+
+.offer-l b.active {
+  display: block;
+}
+
+.offer-big b {
+  display: none;
+}
+
+.offer-big b.active {
   display: block;
 }
 
@@ -119,9 +143,6 @@ body {
   border-radius: 50px;
   padding: 9px;
   margin: 10px auto 10px auto;
-}
-
-.full-offer a {
   font-weight: bold;
   font-family: "Righteous", cursive;
   text-decoration: none;
